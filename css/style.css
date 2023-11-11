@@ -1,0 +1,94 @@
+/*Muhammed Saffet Coskun 8955912*/
+body {
+    font: normal italic bold 12px/1.5 Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsla(275, 66%, 35%, 0.3);
+}
+h2 {
+    color: rgb(0, 116, 136);
+    font-size: 1.5em;
+}
+main{
+    float: left;
+    width: 65vw;
+    background-color: hsl(220, 86%, 70%)
+}
+
+aside{
+    float: right;
+    width: 23vw;
+    background-color: rgb(111, 255, 0);
+    height: 60vh;
+}
+footer{
+    clear: both;
+    background-color: rgb(230, 176, 229);
+}
+header{
+    background-color: rgb(226, 43, 141);
+}
+.structural{
+    padding: 10px;
+    margin: 10px;
+    border: 2px dashed rgb(9, 255, 0);
+    border-width: 2px;
+}
+#para1{
+    color: rgb(0, 4, 255);
+}
+#para2{
+    color: rgb(255, 236, 23);
+}
+a:hover{
+    color: rgb(153, 116, 102);
+}
+footer p{
+    font-size: 0.75em;
+}
+nav ul li{
+    display : inline;
+    list-style-type: none;
+}
+nav ul li a{
+    color: indigo;
+    border:2px solid indigo;
+    background-color: cornsilk;
+    text-decoration: none;
+    padding: 5px;
+}
+nav ul li a:hover{
+    color: cornsilk;
+    background-color: indigo;
+    border-color: cornsilk;
+}
+form{
+    border: 5px dashed darkblue;
+    padding: 5px;
+}
+aside li{
+    list-style-type: square;
+    line-height: 2em;
+    color: brown;
+}
+input[type=text], input[type=email], input[type=submit], select, option{
+    display: block;
+    width: 50%;
+    height: 2em;
+}
+input[type=radio], input[type=checkbox]{
+    height: 2em;
+    width: 2em;
+}
+select option label legend input[type=submit]{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+textarea{
+    display: block;
+    width: 50%;
+}
+fieldset{
+    border: none;
+}
